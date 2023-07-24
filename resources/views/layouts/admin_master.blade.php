@@ -6,7 +6,7 @@ Products<!DOCTYPE html>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>InventoryManagementSystem</title>        
+        <title>InventoryManagementSystem</title>
 
         <link href="{{ asset('backend') }}/css/styles.css" rel="stylesheet" />
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
@@ -57,7 +57,6 @@ Products<!DOCTYPE html>
 
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Products
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapseProducts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
@@ -67,7 +66,7 @@ Products<!DOCTYPE html>
                                     <a class="nav-link" href="{{ route('available.products') }}">Available Products</a>
                                 </nav>
                             </div>
-                            
+
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOrders" aria-expanded="false" aria-controls="collapseOrders">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Orders
@@ -122,13 +121,13 @@ Products<!DOCTYPE html>
                                 </nav>
                             </div>
 
-                            
-                            
+
+
                     </div>
                 </nav>
             </div>
             <div id="layoutSidenav_content">
-                
+
                 @yield('content')
 
                 <footer class="py-4 bg-light mt-auto">
@@ -154,7 +153,7 @@ Products<!DOCTYPE html>
         <!-- <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script> -->
          <!-- <script src="{{ asset('backend') }}/assets/demo/datatables-demo.js"></script>  -->
-<!-- 
+<!--
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/1.7.0/js/dataTables.buttons.min.js"></script>
